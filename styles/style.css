@@ -168,11 +168,6 @@
   text-shadow: 1.5px 2px 0 var(--accent-color, #FF0070);
 }
 
-.card__text a {
-  text-decoration: none;
-  text-shadow: 1.5px 2px 0 var(--accent-color, #FF0070);
-}
-
 .card__text a:hover {
   border-bottom: 2px solid var(--content-font-color, #F1B2CE);
 }
