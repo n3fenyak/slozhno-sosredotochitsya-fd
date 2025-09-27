@@ -262,8 +262,8 @@
     grid-template-rows: repeat(4, min-content);
     grid-template-areas:
       "title title title"
-      "sunset sunset icecream"
-      "cassette books icecream"
+      "sunset sunset ice-cream"
+      "cassette books ice-cream"
       "cassette street street";
     gap: 20px;
   }
@@ -276,8 +276,8 @@
     grid-area: sunset;
   }
 
-  .img-icecream {
-    grid-area: icecream;
+  .img-ice-cream {
+    grid-area: ice-cream;
   }
 
   .img-cassette {
