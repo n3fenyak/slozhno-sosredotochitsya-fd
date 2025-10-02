@@ -3,12 +3,13 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-light {
-  --main-color: #FFF1F7;
-  --main-bg-image: url(../images/cover-image-light.png);
-  --title-color: #FFC2E6;
-  --accent-color: #FF8DCB;
+  --bg-image: url(../images/cover-image-light.png);
+  --text-color: #353430;
+  --accent-color: #FFC2E6;
+  --bg-color: #FFF1F7;
+  --title-color: #FF8DCB;
+  --btn-hover: #32312D66;
 }
 
 .theme-light .header__text-decor {
@@ -17,10 +18,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #FFF1F7;
-    --main-image: url(./../images/cover-image-light.png);
-    --title-color: #FFC2E6;
-    --accent-color: #FF8DCB;
+    --bg-image: url(../images/cover-image-light.png);
+    --text-color: #353430;
+    --accent-color: #FFC2E6;
+    --bg-color: #FFF1F7;
+    --title-color: #FF8DCB;
+    --btn-hover: #32312D66;
   }
 
   .header__text-decor {

@@ -3,13 +3,14 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-dark {
-  --main-color: #000028FF;
-  --main-bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
   --title-color: #DB00FF;
-  --content-color: #F1B2CE;
   --accent-color: #FF0070;
+  --btn-hover: #FF007066;
+  --heading-color: #000028;
 }
 
 .theme-dark .header__text-decor {
