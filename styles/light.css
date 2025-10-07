@@ -10,6 +10,7 @@
   --bg-color: #FFF1F7;
   --title-color: #FF8DCB;
   --btn-hover: #32312D66;
+  --heading-color: #353430;
 }
 
 .theme-light .header__text-decor {
@@ -24,6 +25,7 @@
     --bg-color: #FFF1F7;
     --title-color: #FF8DCB;
     --btn-hover: #32312D66;
+    --heading-color: #353430;
   }
 
   .header__text-decor {
