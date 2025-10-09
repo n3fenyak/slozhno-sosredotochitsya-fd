@@ -80,7 +80,6 @@
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   font-weight: var(--font-weight-bold);
-  margin-top: 6px;
   align-self: center;
   justify-self: start;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
