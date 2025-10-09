@@ -4,6 +4,7 @@
 @import url(./header.css);
 @import url(./section.css);
 @import url(./footer.css);
+@import url(./media.css);
 
 .page {
   font-family: var(--font-family);
@@ -47,10 +48,9 @@
   border-left: 1px solid var(--accent-color);
 }
 
+
 .title-decor {
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-bold);
-  color: var(--bg-color);
+  color: var(--decor-color);
   background-color: var(--accent-color);
   line-height: 1.3;
 }
@@ -58,27 +58,3 @@
 .title-decor-regular {
   font-weight: var(--font-weight-regular);
 }
-
-@media (width >=768px) {
-  .decorated-zone::before {
-    right: 20px;
-    top: 20px;
-  }
-
-  .decorated-zone::after {
-    left: 20px;
-    bottom: 20px
-  }
-}
-
-/* 
-@media (width >=375px) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .header__subtitle {
-    max-height: 120px;
-  }
-} */

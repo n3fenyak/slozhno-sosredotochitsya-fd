@@ -5,11 +5,12 @@
   --font-weight-regular: 400;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
+  --decor-color: #000028;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
+  --section-title-color: #FF0070;
   --btn-hover: #FF007066;
-  --heading-color: #000028;
   --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-title-tablet-desktop: clamp(7.5rem, 0.5625 rem + 14.4531vw, 9.8125rem);
 }
