@@ -62,7 +62,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--btn-color);
+  outline: 1px solid var(--btn-hover);
   /* opacity: 0.4; */
 }
 
