@@ -32,8 +32,8 @@
   right: 10px;
   block-size: 25px;
   inline-size: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--section-title-color);
+  border-right: 1px solid var(--section-title-color);
 }
 
 .decorated-zone::after {
@@ -44,8 +44,8 @@
   left: 10px;
   block-size: 25px;
   inline-size: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--section-title-color);
+  border-left: 1px solid var(--section-title-color);
 }
 
 
@@ -57,4 +57,20 @@
 
 .title-decor-regular {
   font-weight: var(--font-weight-regular);
+}
+
+@media (width >=768px) {
+  .decorated-zone::after {
+    left: 20px;
+    bottom: 20px
+  }
+
+  .decorated-zone::before {
+    right: 20px;
+    top: 20px;
+  }
+
+  .decorated-zone-footer::before {
+    top: 0;
+  }
 }

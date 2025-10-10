@@ -10,7 +10,14 @@
 
 .footer__title {
   color: var(--title-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: var(--font-weight-bold);
   text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+
+@media (width >=768px) {
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

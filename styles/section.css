@@ -9,7 +9,7 @@
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 18.5px;
+  gap: 19px;
 }
 
 .section-title {
