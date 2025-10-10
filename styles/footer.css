@@ -16,8 +16,15 @@
 }
 
 
-@media (width >=768px) {
+/* @media (width >=768px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-top: -32px;
   }
 }
+
+@media (width >=375px) {
+  .decorated-zone-footer::after {
+    bottom: 42px;
+  }
+} */

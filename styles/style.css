@@ -73,4 +73,8 @@
   .decorated-zone-footer::before {
     top: 0;
   }
+
+  .decorated-zone-footer::after {
+    bottom: 42px;
+  }
 }
